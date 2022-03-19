@@ -2,6 +2,8 @@
   <div id="intro">
     <img
       src="https://www.neoenergia.com/pt-br/PublishingImages/cabecalhos/concurso-parodia.png"
+      alt="A imagem diz Folia em casa, carnaval em segurança. O Folião veste
+    adereços carnavalescos dentro de casa."
     />
     <v-container>
       <h3>
@@ -11,8 +13,8 @@
         desenvolvemos esse aplicativo (ou site) para que possamos sentir o
         gostinho do carnaval e comemorá-lo mesmo que em casa!
       </h3>
-      
-      <app-carousel/>
+
+      <app-carousel />
 
       <div class="button my-5">
         <v-btn
@@ -20,19 +22,18 @@
           color="#F58220"
           elevation="2"
           medium
-          outlined
           rounded
+          class="white--text"
         >
           BLOCOS PELO BRASIL
         </v-btn>
       </div>
-
     </v-container>
   </div>
 </template>
 
 <script>
-import AppCarousel from '../components/AppCarousel.vue'
+import AppCarousel from "../components/AppCarousel.vue";
 
 export default {
   name: "HelloWorld",
@@ -46,9 +47,9 @@ export default {
       }, 100);
     },
   },
-   components: {
-      AppCarousel,
-    },
+  components: {
+    AppCarousel,
+  },
 };
 </script>
 

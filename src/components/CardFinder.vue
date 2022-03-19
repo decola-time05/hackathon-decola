@@ -1,7 +1,7 @@
 <template>
       <div>
     <v-row class="justify-center">
-        <CardCreate v-for="card in blocosLista,i" :key="card.i" :card="card"/>
+        <CardCreate v-for="(card,index) in blocosLista" :key="index" :card="card"/>
     </v-row>
   </div>
 </template>

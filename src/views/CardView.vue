@@ -6,6 +6,7 @@
 
 <script>
 import CardFinder from '../components/CardFinder.vue'
+
 export default {
     name:'CardView',
     components: {

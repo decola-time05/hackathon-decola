@@ -11,6 +11,8 @@
         desenvolvemos esse aplicativo (ou site) para que possamos sentir o
         gostinho do carnaval e comemorá-lo mesmo que em casa!
       </h3>
+      
+      <app-carousel/>
 
       <div class="button my-5">
         <v-btn
@@ -24,11 +26,14 @@
           BLOCOS PELO BRASIL
         </v-btn>
       </div>
+
     </v-container>
   </div>
 </template>
 
 <script>
+import AppCarousel from '../components/AppCarousel.vue'
+
 export default {
   name: "HelloWorld",
   data() {
@@ -41,6 +46,9 @@ export default {
       }, 100);
     },
   },
+   components: {
+      AppCarousel,
+    },
 };
 </script>
 

@@ -25,11 +25,11 @@
             
           >
       
-            <v-img src="@/assets/Ariana.png"></v-img>
+            <v-img class="imagem" src="@/assets/Ariana.png"></v-img>
          
           </v-avatar>
           
-          <p>Xangri-Lá - RS</p>
+          <p class="nomecidade">Xangri-Lá - RS</p>
         </v-card>
       </v-col>
       <v-col order="12">
@@ -48,12 +48,13 @@
             color="grey"
             size="80"
             tile
+            center
             
           >
-            <v-img src="@/assets/Flavia.png"></v-img>
+            <v-img  class="imagem" src="@/assets/Flavia.png"></v-img>
             
           </v-avatar>
-          <p>Recife - PE</p>
+          <p class="nomecidade">Recife - PE</p>
         </v-card>
       </v-col>
       <v-col order="12">
@@ -66,17 +67,16 @@
           <span>Jorcelino Santos</span>
         </div>
 
-        
            <v-avatar
             class="profile"
             color="grey"
             size="80"
             tile
           >
-            <v-img src="@/assets/Jorcelino.png"></v-img>
+            <v-img class="imagem" src="@/assets/Jorcelino.png"></v-img>
             
           </v-avatar>
-          <p>Uberaba - Mg</p>
+          <p class="nomecidade">Uberaba - Mg</p>
         </v-card>
       </v-col>
     </v-row>
@@ -97,10 +97,10 @@
             size="75"
             tile
           >
-            <v-img src="@/assets/Marco.png"></v-img>
+            <v-img class="imagem" src="@/assets/Marco.png"></v-img>
             
           </v-avatar>
-          <p>Ribeirão Preto -SP </p>
+          <p class="nomecidade">Ribeirão Preto -SP </p>
           
         </v-card>
       </v-col>
@@ -119,8 +119,7 @@
             size="80"
             tile
           >
-            <v-img src="@/assets/Pedro.png"></v-img>
-            
+            <v-img class="imagem" src="@/assets/Pedro.png"></v-img>
           </v-avatar>
           <p class="nomecidade">Novo Hamburgo - RS</p>
         </v-card>
@@ -140,10 +139,10 @@
             size="80"
             tile
           >
-            <v-img src="@/assets/Thays.png"></v-img>
+            <v-img class="imagem" src="@/assets/Thays.png"></v-img>
             
           </v-avatar>
-          <p class="nomecidad">Fortaleza - CE</p>
+          <p class="nomecidade">Fortaleza - CE</p>
         </v-card>
       </v-col>
     </v-row>
@@ -169,18 +168,18 @@ export default {
     color:#F58220;
     font-weight: bold;
     font-size: 12px;
+    justify-content: center;
 
 }
 
 .nomecidade{
-
-  font-size: 14px;
+  padding: 3px;
+  font-size: 11px;
 }
 
 .tamCard{
-
-  max-height: 163px;
+  max-height: 145px;
+  text-align: center;
 }
-
 
 </style>

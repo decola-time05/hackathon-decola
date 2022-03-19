@@ -31,7 +31,19 @@
               <v-list-item-title> Blocos de carnaval </v-list-item-title>
             </v-list-item>
           </router-link>
-        <v-container class="mt-16">
+
+          <router-link to="/midia">
+          <div>
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-camera</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title> Mídias </v-list-item-title>
+            </v-list-item>
+          </div>
+          </router-link>
+
+         
           <router-link to="/about">
             <v-list-item>
               <v-list-item-icon>
@@ -40,7 +52,6 @@
               <v-list-item-title> Sobre nós </v-list-item-title>
             </v-list-item>
           </router-link>
-        </v-container>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

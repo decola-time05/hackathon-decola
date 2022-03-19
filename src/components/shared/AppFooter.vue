@@ -29,8 +29,8 @@
                 <v-text-field class="mx-3" :rules="rules"></v-text-field>
             </template>
         </div>
-        <div class="button-assinar mx-3">
-            <v-btn color="primary my-3">
+        <div class="button-assinar mx-auto">
+            <v-btn color="primary my-3 mx-3">
                         Assinar
             </v-btn>
         </div>

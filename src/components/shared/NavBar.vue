@@ -8,7 +8,7 @@
       </v-avatar>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" absolute temporary color="rgb(245, 140, 32, 0.95)">
+    <v-navigation-drawer v-model="drawer" fixed temporary color="rgb(245, 140, 32, 0.95)">
       <v-list nav dense>
         <v-list-item-group
           v-model="group"
@@ -31,17 +31,16 @@
               <v-list-item-title> Blocos de carnaval </v-list-item-title>
             </v-list-item>
           </router-link>
-
+        <v-container class="mt-16">
           <router-link to="/about">
-          <div>
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-information</v-icon>
               </v-list-item-icon>
               <v-list-item-title> Sobre nós </v-list-item-title>
             </v-list-item>
-          </div>
           </router-link>
+        </v-container>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>

@@ -56,7 +56,6 @@
         'mdi-linkedin',
         'mdi-instagram',
       ],
-      iconRss: 'mdi-rssbox',
       rules: [
         value => !!value || 'Required.',
         value => (value || '').length <= 20 || 'Max 20 characters',

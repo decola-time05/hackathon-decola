@@ -26,7 +26,7 @@
           <router-link to="/carnaval">
             <v-list-item>
               <v-list-item-icon>
-                <v-icon>mdi-account</v-icon>
+                <v-icon>mdi-animation-play</v-icon>
               </v-list-item-icon>
               <v-list-item-title> Blocos de carnaval </v-list-item-title>
             </v-list-item>
@@ -71,10 +71,6 @@ export default {
 </script>
 
 <style scoped>
-.logodiv img {
-  height: 30px;
-  width: 40px;
-}
 
 .app-top-bar a {
   text-decoration: none;

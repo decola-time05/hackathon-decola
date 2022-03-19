@@ -1,7 +1,7 @@
 <template>
   <div class="about">
-    <div>
-      <p class="text-center" >Sobre Nós</p>
+    <div class="paragrafo" >
+      <p class="text-center" >Devido à pandemia não conseguimos nos encontrar para festejarmos juntos, mas mesmo assim não perdemos nossas raízes</p>
     </div>
     
   <v-container class="grey lighten-5">
@@ -12,7 +12,20 @@
           outlined
           tile
         >
-          <span>Ariana Quadros de Almeida</span>
+        <div class="nomepart">
+          <span>Ariana Almeida</span>
+        </div>
+
+           <v-avatar
+            class="profile"
+            color="grey"
+            size="80"
+            tile
+          >
+            <v-img src="@/assets/Ariana.png"></v-img>
+            
+          </v-avatar>
+          
           <p>Algo Sobre</p>
         </v-card>
       </v-col>
@@ -22,7 +35,19 @@
           outlined
           tile
         >
-          <span>Flavia Souza Passos</span>
+        <div class="nomepart">
+          <span>Flavia Passos</span>
+        </div>
+        
+           <v-avatar
+            class="profile"
+            color="grey"
+            size="80"
+            tile
+          >
+            <v-img src="@/assets/Flavia.png"></v-img>
+            
+          </v-avatar>
           <p>Algo Sobre</p>
         </v-card>
       </v-col>
@@ -32,7 +57,20 @@
           outlined
           tile
         >
-          <span>Jorcelino Oliveira dos Santos</span>
+        <div class="nomepart">
+          <span>Jorcelino Santos</span>
+        </div>
+
+        
+           <v-avatar
+            class="profile"
+            color="grey"
+            size="80"
+            tile
+          >
+            <v-img src="@/assets/Jorcelino.png"></v-img>
+            
+          </v-avatar>
           <p>Algo Sobre</p>
         </v-card>
       </v-col>
@@ -45,7 +83,18 @@
           outlined
           tile
         >
+        <div class="nomepart">
           <span>Marco Branco</span>
+        </div>
+        <v-avatar
+            class="profile"
+            color="grey"
+            size="80"
+            tile
+          >
+            <v-img src="@/assets/Marco.png"></v-img>
+            
+          </v-avatar>
           <p>Algo Sobre</p>
         </v-card>
       </v-col>
@@ -55,7 +104,18 @@
           outlined
           tile
         >
-          <span>Pedro Stanislau Tomacheski</span>
+        <div class="nomepart">
+          <span>Pedro Stanislau</span>
+        </div>
+        <v-avatar
+            class="profile"
+            color="grey"
+            size="80"
+            tile
+          >
+            <v-img src="@/assets/Pedro.png"></v-img>
+            
+          </v-avatar>
           <p>Algo Sobre</p>
         </v-card>
       </v-col>
@@ -65,7 +125,18 @@
           outlined
           tile
         >
-          <span>Thays Souza Gama de Paula Pintos</span>
+        <div class="nomepart">
+          <span>Thays Souza</span>
+        </div>
+        <v-avatar
+            class="profile"
+            color="grey"
+            size="80"
+            tile
+          >
+            <v-img src="@/assets/Thays.png"></v-img>
+            
+          </v-avatar>
           <p>Algo Sobre</p>
         </v-card>
       </v-col>
@@ -83,6 +154,15 @@ export default {
 </script>
 
 <style scoped>
+.paragrafo p{
+  margin: 30px;
+}
 
+.nomepart span{
+    display: flex;
+    color:#F58220;
+    font-weight: bold;
+
+}
 
 </style>

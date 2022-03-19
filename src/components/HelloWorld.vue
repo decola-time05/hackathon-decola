@@ -9,10 +9,10 @@
         carnaval O carnaval O carnaval O carnaval O carnaval O carnaval O
         carnaval O carnaval
       </p>
-      <div class="botoes">
+      <div class="button">
         <v-btn
           @click="delay"
-          color="teal lighten-1"
+          color="#F58220"
           elevation="2"
           medium
           outlined
@@ -28,6 +28,16 @@
 <script>
 export default {
   name: "HelloWorld",
+  data() {
+    return {};
+  },
+  methods: {
+    delay() {
+      setTimeout(() => {
+        this.$router.push("/carnaval");
+      }, 100);
+    },
+  },
 };
 </script>
 
@@ -45,5 +55,10 @@ h1 {
   padding: 15px;
   background-color: #070435;
   color: rgba(255, 253, 251, 0.781);
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 </style>

@@ -2,24 +2,20 @@
   <div id="App">
     <div id="intro">
       <img
-        src="https://img.freepik.com/fotos-gratis/mascaras-de-mascaras-de-carnaval-e-confetes-com-glitter-dourados-vista-superior-close-up-no-fundo-das-cores-azul-e-laranja_75517-1776.jpg?size=626&ext=jpg"
+        src="https://www.neoenergia.com/pt-br/PublishingImages/cabecalhos/concurso-parodia.png"
       />
-      <p>
-        O carnaval O carnaval O carnaval O carnaval O carnaval O carnaval O
-        carnaval O carnaval O carnaval O carnaval O carnaval O carnaval O
-        carnaval O carnaval
-      </p>
-      <div class="botoes">
+      <h1></h1>
+      <div class="button">
         <v-btn
           @click="delay"
-          color="teal lighten-1"
+          color="#F58220"
           elevation="2"
           medium
           outlined
           rounded
         >
-          CARDS</v-btn
-        >
+          BLOCOS PELO BRASIL
+        </v-btn>
       </div>
     </div>
   </div>
@@ -28,6 +24,16 @@
 <script>
 export default {
   name: "HelloWorld",
+  data() {
+    return {};
+  },
+  methods: {
+    delay() {
+      setTimeout(() => {
+        this.$router.push("/carnaval");
+      }, 100);
+    },
+  },
 };
 </script>
 
@@ -42,8 +48,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  background-color: #070435;
-  color: rgba(255, 253, 251, 0.781);
+  padding: 10px;
+  background-color: #f8f8f8;
+  color: rgba(2, 1, 0, 0.781);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 </style>

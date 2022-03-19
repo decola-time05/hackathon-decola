@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <div class="paragrafo" >
-      <p class="text-center" >O projeto "Carnaval Virtual" foi desenvolvido durante a Edição Luna do Hackaton Decola Iteris promovido pela <a href="www.iteris.com.br">Iteris</a></p>
+      <p class="text-center" >O projeto "Carnaval Virtual" foi desenvolvido durante a Edição Luna do Hackaton Decola Iteris promovido pela <a href="https://www.iteris.com.br">Iteris</a></p>
       <h2 class="text-center">Conheça os desenvolvedores</h2>
     </div>
     
@@ -9,7 +9,7 @@
     <v-row no-gutters>
       <v-col>
         <v-card
-          class="pa-2"
+          class="pa-2 tamCard"
           outlined
           tile
         >
@@ -34,7 +34,7 @@
       </v-col>
       <v-col order="12">
         <v-card
-          class="pa-2"
+          class="pa-2 tamCard"
           outlined
           tile
         >
@@ -48,16 +48,17 @@
             color="grey"
             size="80"
             tile
+            
           >
             <v-img src="@/assets/Flavia.png"></v-img>
             
           </v-avatar>
-          <p>Fortaleza - CE</p>
+          <p>Recife - PE</p>
         </v-card>
       </v-col>
       <v-col order="12">
         <v-card
-          class="pa-2"
+          class="pa-2 tamCard"
           outlined
           tile
         >
@@ -83,7 +84,7 @@
     <v-row no-gutters>
       <v-col>
         <v-card
-          class="pa-2"
+          class="pa-2 tamCard"
           outlined
           tile
         >
@@ -105,7 +106,7 @@
       </v-col>
       <v-col order="12">
         <v-card
-          class="pa-2"
+          class="pa-2 tamCard"
           outlined
           tile
         >
@@ -126,7 +127,7 @@
       </v-col>
       <v-col order="12">
         <v-card
-          class="pa-2"
+          class="pa-2 tamCard"
           outlined
           tile
         >
@@ -176,6 +177,10 @@ export default {
   font-size: 14px;
 }
 
+.tamCard{
+
+  max-height: 163px;
+}
 
 
 </style>

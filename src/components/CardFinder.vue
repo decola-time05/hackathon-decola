@@ -21,7 +21,7 @@ export default {
       "https://it3-hbn-default-rtdb.firebaseio.com/carnaval.json"
     );
     const converted = await response.json();
-    this.blocosLista = converted;
+    this.blocosLista = converted.reverse();
   },
 }
 </script>

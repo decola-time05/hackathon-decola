@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import CardView from '../views/CardView.vue'
+import MidiaView from '../views/MidiaView.vue'
 
 Vue.use(VueRouter)
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/carnaval',
     name: 'CardView',
     component: CardView
+  },
+  {
+    path: '/midia',
+    name: 'MidiaView',
+    component: MidiaView
   }
 ]
 

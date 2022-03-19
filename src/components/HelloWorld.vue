@@ -7,7 +7,7 @@
       <h3>
         Sabemos que esta data é esperada por muitas pessoas que gostam de curtir
         os blocos de rua, desfiles e festas privadas e, como as celebrações de
-        Carnaval para 2022 foram canceladas em boa parte do Brasil ,
+        Carnaval para 2022 foram canceladas em boa parte do Brasil,
         desenvolvemos esse aplicativo (ou site) para que possamos sentir o
         gostinho do carnaval e comemorá-lo mesmo que em casa!
       </h3>
@@ -47,6 +47,7 @@ export default {
 <style scoped>
 #app {
   background-color: #f6f6f6;
+  justify-content: center;
 }
 img {
   width: 100%;

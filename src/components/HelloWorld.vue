@@ -11,7 +11,8 @@
         os blocos de rua, desfiles e festas privadas e, como as celebrações de
         Carnaval para 2022 foram canceladas em boa parte do Brasil,
         desenvolvemos esse aplicativo (ou site) para que possamos sentir o
-        gostinho do carnaval e comemorá-lo mesmo que em casa!
+        gostinho do carnaval e comemorá-lo
+        <a href="http://192.168.0.13:8081/midia">mesmo que em casa!</a>
       </h3>
 
       <app-carousel />
@@ -62,7 +63,6 @@ img {
   width: 100%;
 }
 h3 {
-  display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f8f8f8;

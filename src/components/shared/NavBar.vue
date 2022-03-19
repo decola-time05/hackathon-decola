@@ -1,26 +1,25 @@
 <template>
   <div class="app-top-bar">
-
     <v-app-bar app color="#F58220" dark>
       <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
-      <v-toolbar-title>
-          Carnaval Virtual
-      </v-toolbar-title>
-      <v-img   max-height="30" max-width="40" src="../../assets/logo.png" />
+      <v-toolbar-title> Carnaval Virtual </v-toolbar-title>
+      <v-avatar size="55" class="ml-auto" tile>
+        <img src="../../assets/logo.png" alt="" />
+      </v-avatar>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" absolute temporary>
+    <v-navigation-drawer v-model="drawer" absolute temporary color="#F58220">
       <v-list nav dense>
-        <v-list-item-group v-model="group" active-class="indigo--text text--lighten-2">
-    
+        <v-list-item-group
+          v-model="group"
+          active-class="indigo--text text--lighten-2"
+        >
           <router-link to="/">
             <v-list-item>
               <v-list-item-icon>
                 <v-icon>mdi-home</v-icon>
               </v-list-item-icon>
-              <v-list-item-title>
-                Início
-              </v-list-item-title>
+              <v-list-item-title> Início </v-list-item-title>
             </v-list-item>
           </router-link>
 
@@ -29,12 +28,9 @@
               <v-list-item-icon>
                 <v-icon>mdi-account</v-icon>
               </v-list-item-icon>
-              <v-list-item-title>
-                Blocos de carnaval
-              </v-list-item-title>
+              <v-list-item-title> Blocos de carnaval </v-list-item-title>
             </v-list-item>
           </router-link>
-
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -43,22 +39,20 @@
 
 <script>
 export default {
-  name: 'AppTopBar',
+  name: "AppTopBar",
   data() {
     return {
       drawer: false,
       group: null,
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <style scoped>
-
-.logodiv img{ 
-
-  height:30px;
-  width:40px;
+.logodiv img {
+  height: 30px;
+  width: 40px;
 }
 
 .app-top-bar a {

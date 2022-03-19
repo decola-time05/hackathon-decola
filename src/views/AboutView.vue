@@ -1,7 +1,8 @@
 <template>
   <div class="about">
     <div class="paragrafo" >
-      <p class="text-center" >Devido à pandemia não conseguimos nos encontrar para festejarmos juntos, mas mesmo assim não perdemos nossas raízes</p>
+      <p class="text-center" >O projeto "Carnaval Virtual" foi desenvolvido durante a Edição Luna do Hackaton Decola Iteris promovido pela <a href="www.iteris.com.br">Iteris</a></p>
+      <h2 class="text-center">Conheça os desenvolvedores</h2>
     </div>
     
   <v-container class="grey lighten-5">
@@ -21,12 +22,14 @@
             color="grey"
             size="80"
             tile
-          >
-            <v-img src="@/assets/Ariana.png"></v-img>
             
+          >
+      
+            <v-img src="@/assets/Ariana.png"></v-img>
+         
           </v-avatar>
           
-          <p>Algo Sobre</p>
+          <p>Xangri-Lá - RS</p>
         </v-card>
       </v-col>
       <v-col order="12">
@@ -35,6 +38,7 @@
           outlined
           tile
         >
+
         <div class="nomepart">
           <span>Flavia Passos</span>
         </div>
@@ -48,7 +52,7 @@
             <v-img src="@/assets/Flavia.png"></v-img>
             
           </v-avatar>
-          <p>Algo Sobre</p>
+          <p>Fortaleza - CE</p>
         </v-card>
       </v-col>
       <v-col order="12">
@@ -71,7 +75,7 @@
             <v-img src="@/assets/Jorcelino.png"></v-img>
             
           </v-avatar>
-          <p>Algo Sobre</p>
+          <p>Uberaba - Mg</p>
         </v-card>
       </v-col>
     </v-row>
@@ -89,13 +93,14 @@
         <v-avatar
             class="profile"
             color="grey"
-            size="80"
+            size="75"
             tile
           >
             <v-img src="@/assets/Marco.png"></v-img>
             
           </v-avatar>
-          <p>Algo Sobre</p>
+          <p>Ribeirão Preto -SP </p>
+          
         </v-card>
       </v-col>
       <v-col order="12">
@@ -116,7 +121,7 @@
             <v-img src="@/assets/Pedro.png"></v-img>
             
           </v-avatar>
-          <p>Algo Sobre</p>
+          <p class="nomecidade">Novo Hamburgo - RS</p>
         </v-card>
       </v-col>
       <v-col order="12">
@@ -137,7 +142,7 @@
             <v-img src="@/assets/Thays.png"></v-img>
             
           </v-avatar>
-          <p>Algo Sobre</p>
+          <p class="nomecidad">Fortaleza - CE</p>
         </v-card>
       </v-col>
     </v-row>
@@ -162,7 +167,15 @@ export default {
     display: flex;
     color:#F58220;
     font-weight: bold;
+    font-size: 12px;
 
 }
+
+.nomecidade{
+
+  font-size: 14px;
+}
+
+
 
 </style>

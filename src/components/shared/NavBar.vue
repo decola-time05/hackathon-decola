@@ -32,6 +32,17 @@
             </v-list-item>
           </router-link>
 
+          <router-link to="/midia">
+          <div>
+            <v-list-item>
+              <v-list-item-icon>
+                <v-icon>mdi-camera</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title> Mídias </v-list-item-title>
+            </v-list-item>
+          </div>
+          </router-link>
+
           <router-link to="/about">
           <div>
             <v-list-item>

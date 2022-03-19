@@ -10,7 +10,7 @@ import CardFinder from '../components/CardFinder.vue'
 export default {
     name:'CardView',
     components: {
-    CardFinder
+    CardFinder,
   },
 }
 </script>

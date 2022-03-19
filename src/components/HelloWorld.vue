@@ -1,15 +1,18 @@
 <template>
-  <div id="App">
-    <div id="intro">
-      <img
-        src="https://img.freepik.com/fotos-gratis/mascaras-de-mascaras-de-carnaval-e-confetes-com-glitter-dourados-vista-superior-close-up-no-fundo-das-cores-azul-e-laranja_75517-1776.jpg?size=626&ext=jpg"
-      />
-      <p>
-        O carnaval O carnaval O carnaval O carnaval O carnaval O carnaval O
-        carnaval O carnaval O carnaval O carnaval O carnaval O carnaval O
-        carnaval O carnaval
-      </p>
-      <div class="button">
+  <div id="intro">
+    <img
+      src="https://www.neoenergia.com/pt-br/PublishingImages/cabecalhos/concurso-parodia.png"
+    />
+    <v-container>
+      <h3>
+        Sabemos que esta data é esperada por muitas pessoas que gostam de curtir
+        os blocos de rua, desfiles e festas privadas e, como as celebrações de
+        Carnaval para 2022 foram canceladas em boa parte do Brasil ,
+        desenvolvemos esse aplicativo (ou site) para que possamos sentir o
+        gostinho do carnaval e comemorá-lo mesmo que em casa!
+      </h3>
+
+      <div class="button my-5">
         <v-btn
           @click="delay"
           color="#F58220"
@@ -18,10 +21,10 @@
           outlined
           rounded
         >
-          CARDS</v-btn
-        >
+          BLOCOS PELO BRASIL
+        </v-btn>
       </div>
-    </div>
+    </v-container>
   </div>
 </template>
 
@@ -48,17 +51,19 @@ export default {
 img {
   width: 100%;
 }
-h1 {
+h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  background-color: #070435;
-  color: rgba(255, 253, 251, 0.781);
+  background-color: #f8f8f8;
+  color: rgba(2, 1, 0, 0.781);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 20px;
+  text-align: justify;
 }
 .button {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 </style>

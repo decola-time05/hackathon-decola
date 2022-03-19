@@ -5,8 +5,8 @@
   >
     <v-img
       :src=card.photo
-      height="350px"
-      width="350px"
+      height="330px"
+      width="330px"
     ></v-img>
 
     <v-card-title>

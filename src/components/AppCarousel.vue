@@ -22,7 +22,7 @@
             class="instagram"
             href="https://www.instagram.com/explore/tags/carnavalemcasa/"
             target="_blank"
-            >@carnavalemcasa</a
+            >#FoliaemCasa</a
           >
         </v-list-item-content>
       </v-list-item>

@@ -12,7 +12,7 @@
         Carnaval para 2022 foram canceladas em boa parte do Brasil,
         desenvolvemos esse aplicativo (ou site) para que possamos sentir o
         gostinho do carnaval e comemorá-lo
-        <a href="http://192.168.0.13:8081/midia">mesmo que em casa!</a>
+        <a href="http://192.168.0.13:8080/midia/">mesmo que em casa!</a>
       </h3>
 
       <app-carousel />

@@ -1,8 +1,6 @@
 <template>
   <v-app>
-<<<<<<< HEAD
-   <NavBar/>
-=======
+    <NavBar />
     <v-app-bar app color="primary" dark>
       <div class="d-flex align-center">
         <v-img
@@ -39,7 +37,6 @@
     <v-main>
       <router-view />
     </v-main>
->>>>>>> 1767a4c4743c14a09c180e179db7f600a6cc8e98
   </v-app>
 </template>
 
